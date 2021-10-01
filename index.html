@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--mengenali bahwa dokumen ini bahwa menggunakan html5-->
+    <link rel="icon" type="image/png" href="favicon.png"/> <!--elemen <link> disini sebagai hyperlink yang ber rel="icon" bertype image/png dan mengambil dari file favicon.png dengan elemen href-->
+    <title>Beranda</title> <!--elemen <tittle> berfungsi untuk menulis judul halaman-->
+</head>
+    <body>
+        <header> <!--elemen <header> disini merepresentasikan konten pengantar, pembukaan atau navigasi yang terdiri dari deretan link-->
+            <nav>
+                <!--Pada bagian ini saya menggunakan elemen <nav> untuk link-link yang merujuk ke halaman lain atau halaman web itu sendiri, dapat dikelompokkan (digabungkan) di dalam element <nav> dan elemen <a> disini berfungsi untuk mendefinisikan sebuah hyperlink dan href sendiri merujuk pada link dimana kita akan membuka halaman selanjutnya-->
+                <a href="index.html">Beranda</a> |
+                <a href="rhp.html">Riwayat Hidup & Pendidikan</a> |
+                <a href="citacita.html">Cita - Cita</a> 
+            </nav>
+        </header>
+
+        <main> <!-- elemen <main> disini untuk merepresentasikan konten utama dalam sebuah dokumen (tepatnya didalam <body> element)-->
+            <section> <!-- elemen <section> digunakan untuk mengelompokkan konten/dokumen menjadi beberapa bagian berdasarkan tema atau pokok pikiran masing-masing-->
+                <h1>Tentang Saya</h1> 
+            </section>
+            <!--elemen <h1> disini berisi heading 1 yang biasanya digunakan untuk judul dalam suatu dokumen,elemen <h2> disini berisi heading 2 yang biasanya digunakan pada judul artikel blog jika berada pada homepage,elemen <p> disini berfungsi sebagai paragraf,elemen <strong> berfungsi untuk membuat kata penting sekaligus membuat teks tebal, elemen <em> disini berfungsi untuk mengandung arti emphatic stress yang menunjukkan penekanan yang tegas dan menghasilkan teks miring, elemen <u> berfungsi menampilkan teks menjadi teks miring-->
+            <article> <!--elemen <article> ini digunakan untuk memberi mark up sebuah independent content, artinya element itu dapat berdiri sendiri sebagai sebuah konten utuh yang tidak terikat dengan konten lain (element lain)-->   
+                <h2>Pekerjaan</h2>
+                <p>Hai perkenalkan nama saya <strong>Mei Ayuningsari</strong>. Saya adalah mahasiswa di kampus <mark>STIKOM PGRI Banyuwangi</mark>. Saat ini saya sedang dikelas mata kuliah Desain Web atau dalam Bahasa Inggris disebut <em>Web Design</em>. Mata kuliah ini mempunyai beban kredit sebesar <u>3 SKS</u>. Mari belajar bersama.</u> selain mata kuliah Desain Web juga ada beberapa mata kuliah yang harus saya tempuh di semester 3 ini yaitu : 
+                    <ol> <!-- element <ol> disini digunakan apabila kita memiliki beberapa item teks atau konten yang ingin diurutkan berdasarkan penomoran otomatis dan elemen <li> disini untuk membuat list angka didalam elemen <ol>-->
+                        <li>Dasar Pemrogaman Backend</li>
+                        <li>Dasar Pemrogaman Frontend</li>
+                        <li>Desain Prototype Web</li>
+                        <li>Data Scrapping</li>
+                        <li>Bahasa Indonesia</li>
+                        <li>Statistik</li>
+                        <li>Pancasila dan Kewarganegaraan</li>
+                    </ol>
+                    <strong><em><u>SEMANGAT!</u></em></strong></p> <!--elemen <strong> yang berarti teks tersebut penting dan ditandai dengan teks tersebut bercetak tebal,elemen <em> menunjukkan stress emphasis atau dapat dikatakan konten/kata yang perlu mendapatkan penekanan atau perhatian khusus juga teks tersebut akan bercetak miring dan elemen <u> untuk membuat teks tersebut bergaris bawah-->
+            </article>
+
+            <article>
+                <h2>Keahlian</h2>
+                <p>Sebagai seorang mahasiswa yang berkecimpung dalam dunia Teknik Informatika maka,saya harus bisa menguasai setidaknya salah satu dari mata kuliah yang saya tempuh dan disini saya sedikit mengetahui mengenai desain web yang nantinya saya harap akan bisa membuat website sendiri untuk usaha maupun website tempat saya bekerja yaitu di Banana Homestay.</p>
+            </article>
+        </main>
+
+        <footer>
+            <div class="sosial-media">
+                <h3>Temui penulis di</h3> <!--elemen <h2> disini berisi heading 3 yang biasanya digunakan pada judul artikel blog jika berada pada homepage dan elemen <a> disini berfungsi untuk mendefinisikan sebuah hyperlink dan href sendiri merujuk pada link dimana kita akan membuka halaman selanjutnya-->
+                <span class="facebook"> <!--elemen <span> merupakan element inline (elemen yang tidak membentuk garis baru) yang digunakan untuk mengelompokkan beberapa element yang dimaksudkan untuk memudahkan dalam pemberian style (dengan CSS)-->
+                    <a href="https://web.facebook.com/mei.ayuning">Facebook : Ziana</a>
+                </span>
+                <br>
+                <span class="instagram">
+                    <a href="https://www.instagram.com/kesengsem_05/">Instagram : @kesengsem_05</a>
+                </span>
+                <br>
+                <span class="tiktok">
+                    <a href="https://www.tiktok.com/@memei1305?">Tik Tok : @memei1305</a>
+                </span>
+                <br>
+                <span class="tiktok">
+                    <a href="https://www.youtube.com/channel/UCtLUCHTHZHZT8oskitW9uEg">YouTube : Just Meme</a>
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>
